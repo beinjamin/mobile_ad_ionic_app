@@ -1,7 +1,11 @@
 {
   "name": "mobile_ad_ionic_app",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
+  "integrations": {},
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
 }
